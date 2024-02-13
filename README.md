@@ -30,9 +30,9 @@ Predicciones generadas por el modelo.
 
 Estructura del Repositorio
 SRC: Contiene los códigos fuente del proyecto.
-prep.py: Código para el preprocesamiento de datos.
-train.py: Código para el entrenamiento del modelo.
-inference.py: Código para la inferencia/predicción.
+  prep.py: Código para el preprocesamiento de datos.
+  train.py: Código para el entrenamiento del modelo.
+  inference.py: Código para la inferencia/predicción.
 DATA: Carpeta que almacena los conjuntos de datos de entrada y salida.
 
 Cómo ejecutar el Proyecto
