@@ -1,0 +1,30 @@
+2024-02-18 09:34:08,492 - INFO - Inicio del script
+2024-02-18 09:34:08,492 - INFO - Paso 1: Cargando datos
+2024-02-18 09:34:08,492 - INFO - Paso 2: Limpiando datos
+2024-02-18 09:34:08,493 - INFO - Paso 3: Creando features
+2024-02-18 09:34:08,493 - INFO - Paso 4: Entrenando modelo
+2024-02-18 09:34:08,493 - INFO - Paso 5: Realizando inferencia
+2024-02-18 09:34:08,493 - INFO - Fin del script
+2024-02-18 09:34:08,493 - DEBUG - Número de filas y columnas en el dataset de entrada: 1460, 81
+2024-02-18 09:34:08,493 - DEBUG - Número de filas y columnas en el dataset de salida: 1460, 13
+2024-02-18 09:34:08,493 - DEBUG - Ruta del archivo de entrada: d:\Horus\Escritorio\Horus Respaldo\Documents\Profesional\MsterDataScienceITAM_20230410\S22024\S2_MetodosaGranEscala\logs\20240218_093408
+2024-02-18 09:34:08,494 - DEBUG - Ruta del archivo de salida: d:\Horus\Escritorio\Horus Respaldo\Documents\Profesional\MsterDataScienceITAM_20230410\S22024\S2_MetodosaGranEscala\logs\20240218_093408
+2024-02-18 09:34:08,845 - ERROR - Error en el paso de preparación: [Errno 13] Permission denied: 'd:\\Horus\\Escritorio\\Horus Respaldo\\Documents\\Profesional\\MsterDataScienceITAM_20230410\\S22024\\S2_MetodosaGranEscala\\DATA\\Prep.csv'
+2024-02-18 09:34:08,892 - ERROR - Traceback: Traceback (most recent call last):
+  File "d:\Horus\Escritorio\Horus Respaldo\Documents\Profesional\MsterDataScienceITAM_20230410\S22024\S2_MetodosaGranEscala\main_pylnarglg.py", line 82, in <module>
+    prep_pylnarg.prep_code(input_file=input_file_prep, output_file=output_file_prep)
+  File "d:\Horus\Escritorio\Horus Respaldo\Documents\Profesional\MsterDataScienceITAM_20230410\S22024\S2_MetodosaGranEscala\SRC\prep_pylnarg.py", line 51, in prep_code
+    data_combined.to_csv(output_file, index=False)
+  File "C:\Users\Horus\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\generic.py", line 3902, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Horus\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\io\formats\format.py", line 1152, in to_csv
+    csv_formatter.save()
+  File "C:\Users\Horus\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\io\formats\csvs.py", line 247, in save
+    with get_handle(
+         ^^^^^^^^^^^
+  File "C:\Users\Horus\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\io\common.py", line 863, in get_handle
+    handle = open(
+             ^^^^^
+PermissionError: [Errno 13] Permission denied: 'd:\\Horus\\Escritorio\\Horus Respaldo\\Documents\\Profesional\\MsterDataScienceITAM_20230410\\S22024\\S2_MetodosaGranEscala\\DATA\\Prep.csv'
+

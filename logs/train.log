@@ -1,0 +1,3 @@
+2024-02-18 09:34:08,494 - DEBUG - Número de filas y columnas en el dataset de entrada para entrenamiento: 1460, 13
+2024-02-18 09:34:08,494 - DEBUG - Ruta del archivo de entrada para entrenamiento: d:\Horus\Escritorio\Horus Respaldo\Documents\Profesional\MsterDataScienceITAM_20230410\S22024\S2_MetodosaGranEscala\logs\20240218_093408
+2024-02-18 09:34:08,494 - DEBUG - Ruta del archivo de salida del modelo entrenado: d:\Horus\Escritorio\Horus Respaldo\Documents\Profesional\MsterDataScienceITAM_20230410\S22024\S2_MetodosaGranEscala\logs\20240218_093408
