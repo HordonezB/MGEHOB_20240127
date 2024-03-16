@@ -6,6 +6,11 @@ Este proyecto se centra en el preprocesamiento de datos y la creación de modelo
 
 El proyecto consta de tres partes principales:
 
+
+## Arquitectura (Diadrama del Producto de Datos)
+![image](https://github.com/HordonezB/MGEHOB_20240127/assets/141704495/9bedc494-09a6-4897-b23e-ea3937f82ee6)
+
+
 - **Preprocesamiento de Datos:** Se encarga de realizar la limpieza, transformación e ingeniería de características en los conjuntos de datos de entrada.
 
 - **Entrenamiento del Modelo:** Utiliza algoritmos de aprendizaje automático para entrenar modelos predictivos utilizando los datos preprocesados.
